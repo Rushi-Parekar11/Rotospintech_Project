@@ -1,0 +1,36 @@
+# Dependency directory
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+*.log
+*.tgz
+
+# Optional if you're using coverage reports or testing
+coverage/
+
+# Optional if you’re using Tailwind CSS or other tools that generate artifacts
+*.css.map
